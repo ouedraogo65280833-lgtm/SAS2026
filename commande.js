@@ -1,0 +1,11 @@
+const nom = "Awa";
+const nom_produit = "Ordinateur";
+const prix_unitaire = 250000;
+const quantité = 2;
+const frais_de_livraison = 5000;
+const taux_de_TVA = (18);
+const montant_total = prix_unitaire * quantité;
+ const montant_TVA = (montant_total * 18)/100;
+ const montant_total_TTC = montant_total + montant_TVA;
+ const montant_final = montant_total_TTC + frais_de_livraison;
+ const prix_moyen_produit = (montant_total_TTC)/2;
